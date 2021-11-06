@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/adaab820e8.js" crossorigin="anonymous"></script>
+    <title>Action Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="logo.png"/>
+</head>
+<body>
+    <section class="header5">
+        <nav>
+            <a href="home.html"> <img src="logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="causes.html">CAUSES</a></li>
+                    <li><a href="action.html">ACTION</a></li>
+                    <li><a href="stats.html">STATS</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div class="text-box">
+        <h1>STATISTICS</h1>
+        <h3>The Numbers are rising than ever before...</h3>
+    </div><br><br>
+    <h1>TEMPERATURE</h1>
+    <div class="stats1">
+        <img src="stats1.png">
+        
+        <h3>The temperature has been rising continuously over the past 50 years as you can see in the graph.</h3>
+        <ul>
+            <li>This graph illustrates the change in global surface temperature relative to 1951-1980 average temperatures. Nineteen of the hottest years have occurred since 2000, with the exception of 1998, which was helped by a very strong El Niño. The year 2020 tied with 2016 for the hottest year on record since record-keeping began in 1880 (source: NASA/GISS). This research is broadly consistent with similar constructions prepared by the Climatic Research Unit and the National Oceanic and Atmospheric Administration.</li> <br><br>
+            <li>Greenhouse gases are trapping more heat in the Earth's atmosphere, which is causing average temperatures to rise all over the world.</li>
+         </ul>
+    </div>
+    <br><br><br><br><br><br><br>
+   
+        <h1>CARBON DIOXIDE</h1>
+        <div class="stats2">
+            <img src="stats2.png">
+            
+            <h3>The Carbon-Dioxide levels in the atmosphere have been rising continuously as you can see in the graph.</h3>
+            <ul>
+                <li>Carbon dioxide (CO2) is an important heat-trapping (greenhouse) gas, which is released through human activities such as deforestation and burning fossil fuels, as well as natural processes such as respiration and volcanic eruptions. The first graph shows atmospheric CO2 levels measured at Mauna Loa Observatory, Hawaii, in recent years, with the average seasonal cycle removed. The second graph shows CO2 levels during the last three glacial cycles, as reconstructed from ice cores.</li><br>
+                <li>Over the past 171 years, human activities have raised atmospheric concentrations of CO2 by nearly 49% above pre-industrial levels starting in 1850. This is more than what had happened naturally over a 20,000 year period (from the Last Glacial Maximum to 1850, from 185 ppm to 280 ppm).</li>
+            </ul>
+        </div>
+        <br><br><br><br>
+    
+        <h1>ARCTIC SEA ICE MINIMUM</h1>
+        <div class="stats3">
+            <img src="stats3.png">
+            
+            <h3>The arctic sea ice levels have been depleting continuously as you can see in the graph.</h3>
+            <ul>
+                <li>Arctic sea ice reaches its minimum each September. September Arctic sea ice is now declining at a rate of 13% per decade, relative to the 1981 to 2010 average. This graph shows the average monthly Arctic sea ice extent each September since 1979, derived from satellite observations.</li><br>
+                <li>This melting of ice has resulted in destruction of habitats of various flora and fauna residing there. Various animals have been rendered helpless and are losing their lives drowning in the wide expanse of the sea.</li>
+            </ul>
+        </div>
+        <br><br><br><br>
+        <h1>TEMPERATURE</h1>
+        <div class="stats4">
+            <img src="stats4.png">
+            
+            <h3>The temperature has been rising continuously over the past 50 years as you can see in the graph.</h3>
+            <h3>The main reasons are:</h3>
+            <ul>
+                <li>Rising pollution</li>
+                <li>Increased use of vehicles</li>
+                <li>Hello</li>
+            </ul>
+        </div>
+        <br><br><br><br>
+        <h1>TEMPERATURE</h1>
+        <div class="stats5">
+            <img src="stats5.png">
+            
+            <h3>The temperature has been rising continuously over the past 50 years as you can see in the graph.</h3>
+            <h3>The main reasons are:</h3>
+            <ul>
+                <li>Rising pollution</li>
+                <li>Increased use of vehicles</li>
+                <li>Hello</li>
+            </ul>
+        </div>
+        <br><br><br><br><br>
+        <h1>TEMPERATURE</h1>
+        <div class="stats6">
+            <img src="stats6.png">
+            
+            <h3>The temperature has been rising continuously over the past 50 years as you can see in the graph.</h3>
+            <h3>The main reasons are:</h3>
+            <ul>
+                <li>Rising pollution</li>
+                <li>Increased use of vehicles</li>
+                <li>Hello</li>
+            </ul>
+        </div>
+        <br><br><br><br>
+
+
+
+
+
+
+
+<script>window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    do {
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+
+    var targetY = 0;
+    do { 
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+
+    scroll = function(c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}</script>
+
+
+</body>
+</html>
